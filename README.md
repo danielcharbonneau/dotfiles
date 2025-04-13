@@ -10,7 +10,6 @@ git init
 git remote add origin https://github.com/danielcharbonneau/dotfiles.git
 git fetch
 git reset origin/main
-git checkout -t origin/main
 git config status.showUntrackedFiles no
 ```
 
