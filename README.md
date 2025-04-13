@@ -5,7 +5,13 @@ These are my dotfiles.
 ## Quick Start
 
 ```bash
-git clone --bare https://github.com/danielcharbonneau/dotfiles.git $HOME/.dotfiles
-git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout
-git dot status
+cd ~
+git init
+git remote add origin https://github.com/danielcharbonneau/dotfiles.git
+git fetch
+git reset origin/main
+git checkout -t origin/main
+git config status.showUntrackedFiles no
 ```
+
+In Lazygit, \<c-b\> and select `Show only untracked files`
