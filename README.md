@@ -13,7 +13,7 @@ git reset origin/main
 git config status.showUntrackedFiles no
 ```
 
-In Lazygit, \<c-b\> and select `Show only untracked files`
+In Lazygit, `<c-b>` and select `Show only untracked files`
 
 ## Setup Environment
 
